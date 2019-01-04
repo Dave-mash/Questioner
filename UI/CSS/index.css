@@ -102,6 +102,24 @@ h1 img {
     cursor: pointer;
 }
 
+.dashboard {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dashboard a:hover {
+    text-decoration: underline;
+}
+
 button a {
     color: #fff;
 }
@@ -250,7 +268,7 @@ footer {
 
     .assymetric {
         border-left: 100vw solid #00AAFF;
-        border-bottom: 25vh solid #fff;
+        border-bottom: 20vh solid #fff;
     }
 
     .questioner-details {

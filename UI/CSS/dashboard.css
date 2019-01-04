@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    height: 75px;
+    font-size: 17px;
+}
+
+header input {
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 17px;
+    height: 30px;
+    width: 200px;
+    opacity: .8;
+}
+
+.nav_links {
+    position: relative;
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+#explore, #profile, #admin {
+    padding: 8px;
+}
+
+.d-border, .p-border, .a-border {
+    position: absolute;
+    padding: 17px 0;
+    width: 2px;
+}
+
+.d-border {
+    left: 7%;
+    background: #19B2FE;
+}
+
+.p-border {
+    right: 57%;
+}
+
+.a-border {
+    right: 25%;
+}
+
+#explore:hover, #profile:hover, #admin:hover {
+    background: #19B2FE;
+    border-radius: 2px;
+    color: #fff;
+}
