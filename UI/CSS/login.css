@@ -1,0 +1,11 @@
+.form_wrapper {
+    /* background: red; */
+    position: absolute;
+    width: 30%;
+    right: 35%;
+    top: 15%;
+}
+
+label {
+    margin-top: 20px;
+}
