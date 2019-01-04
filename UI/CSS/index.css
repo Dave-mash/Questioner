@@ -75,6 +75,7 @@ h1 img {
 }
 
 .questioner-details p {
+    margin-top: 50px;
     letter-spacing: 2px;
     font-size: 23px;
     line-height: 30px;
@@ -118,7 +119,7 @@ button a {
 #background_img {
     position: absolute;
     top: 0;
-    opacity: .6;
+    opacity: .9;
     width: 100vw;
     height: 100vh;
     transform: rotate(180deg)
@@ -248,9 +249,8 @@ footer {
     }
 
     .assymetric {
-        height: 8vh;
         border-left: 100vw solid #00AAFF;
-        border-bottom: 10vh solid #fff;
+        border-bottom: 25vh solid #fff;
     }
 
     .questioner-details {
