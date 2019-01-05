@@ -1,0 +1,101 @@
+.container {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.items {
+    border: 1px solid #ccc;
+    display: flex;
+    box-sizing: border-box;
+    /* background: red; */
+    /* flex-direction: column; */
+    margin-top: 50px;
+    width: 80%;
+    height: 85%;
+    flex-wrap: wrap;
+}
+
+.name {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    /* background: blue; */
+}
+
+h2 {
+    margin-left: 10px;
+    height: 10%;
+}
+
+.row-sec {
+    margin-top: 10px;
+    display: flex;
+    height: 80%;
+    background: #fff;
+    display: flex;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    height: 55%;
+    /* background: blue; */
+}
+
+.avatar img {
+    width: 45%;
+    height: 55%;
+}
+
+.rows {
+    flex: 70%;
+    height: 100%;
+}
+
+h4 {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+p, a {
+    padding-left: 10px;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 50%;
+}
+
+.schedule {
+    flex: 50%;
+}
+
+.location {
+    flex: 50%;
+    border-bottom: 1px solid #ccc;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 50%;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.post {
+    flex: 50%;
+    border-top: 1px solid #ccc;
+}

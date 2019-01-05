@@ -67,10 +67,13 @@ header input {
     opacity: .8;
 }
 
+.nav {
+    font-size: 20px;
+}
+
 .nav_links {
     position: relative;
     width: 30%;
-    font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -379,7 +382,7 @@ footer {
         font-size: 13px;
     }
 
-    ..accordion {
+    .accordion {
         display: none;
     }
 
