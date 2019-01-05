@@ -28,7 +28,6 @@ h2 {
 }
 
 .row-sec {
-    margin-top: 10px;
     display: flex;
     height: 80%;
     background: #fff;
@@ -60,6 +59,7 @@ h2 {
 h4 {
     margin: 10px 0;
     padding-left: 10px;
+    opacity: .8;
 }
 
 p, a {
@@ -89,6 +89,14 @@ p, a {
     flex: 50%;
 }
 
+.row-sec p, .row-sec h4 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
 .questions {
     display: flex;
     flex-direction: column;
@@ -98,4 +106,62 @@ p, a {
 .post {
     flex: 50%;
     border-top: 1px solid #ccc;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #title_img {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    p, h4 {
+        font-size: 8px;
+    }
+
+    .items {
+        width: 90%;
+    }
+
+    .avatar {
+        /* background: red; */
+        justify-content: space-around;
+    }
+
+    .avatar img {
+        width: 45%;
+        height: 40%;
+    }
+
+    .avatar a {
+        font-size: 14px;
+    }
+
+    .items {
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .items {
+        height: 70%;
+        width: 70%;
+        /* background: red; */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .avatar a {
+        font-size: 17px;
+    }
+
+    p, h4 {
+        font-size: 18px;
+    }
 }
