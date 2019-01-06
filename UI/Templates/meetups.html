@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS/signup.css">
     <link rel="stylesheet" href="../CSS/dashboard.css">
     <link rel="stylesheet" href="../CSS/admin.css">
+    <link rel="stylesheet" href="../CSS/meetups.css">
     <title>Admin</title>
     <link rel="icon" type="image/png" href="../images/quora-logo.png" />
 </head>
@@ -38,9 +39,6 @@
             <a href="#">Profile</a>
             <a href="#">Admin</a>
         </div>
-        <div class="admin-info">
-            <strong>WELCOME! to your admin page. You can view all your activities here. Please note, anything on this page should be confidential. click here to hide this</strong>
-        </div>
         <div class="admin-panel">
             <div class="space">
                 <div class="activities links">
@@ -57,24 +55,48 @@
                 </div>
             </div>
         </div>
-        <div class="create-form">
-            <form action="submit">
-                <div class="entries">
-                    <div class="inputs">
-                        <label for="title">Title <b>*</b></label><br>
-                        <input type="text"><br><br>
-                        <label for="title">Venue <b>*</b></label><br>
-                        <input type="text"><br><br>
-                        <label for="title">Date <b>*</b></label><br>
-                        <input type="text"><br><br>
-                    </div>
-                    <div class="description">
-                        <label for="title">Description <b>*</b></label><br>
-                        <textarea name="" id="" cols="28" rows="7"></textarea>
+        <div class="admin-meetups">
+            <div class="meet_wrap">
+                <div class="mini-menu mini">
+                    <p>Delete meetup</p>
+                    <p>Edit meetup</p>
+                </div>
+                <img src="../images/menu.png" alt="menu" id="menu">
+                <div class="timestamp">
+                <p>5:00 PM</p>
+                </div>
+                <div class="meetup-info">
+                    <h5>NAIROBI EDTECH MEETUP</h5>
+                    <p id="meetup-info-text"><a href="questions.html">EDTECH Meetup</a></p>
+                    <div class="accessories">
+                        <p id="going">3 members going</p>
+                        <p id="going">5 Questions</p>
                     </div>
                 </div>
-                <button>Post Meetup</button>
-            </form>
+            </div>
+            <div class="meet_wrap">
+                <div class="mini-menu mini">
+                    <p>Delete meetup</p>
+                    <p>Edit meetup</p>
+                </div>
+                <img src="../images/menu.png" alt="menu" id="menu">
+                <div class="timestamp">
+                    <p>9:00 AM</p>
+                </div>
+                <div class="meetup-info">
+                    <h5>JAVASCRIPT ENLIGHTMENT</h5>
+                    <p id="meetup-info-text"><a href="questions.html">Become a world class JavaScript Developer</a></p>
+                    <div class="accessories">
+                        <p id="going">3 members going</p>
+                        <p id="going">1 Questions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="meetup_details show">
+                <div class="wrap more">
+                    <b id="show more">Show more</b>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
