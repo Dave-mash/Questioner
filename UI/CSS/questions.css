@@ -261,6 +261,16 @@ button {
     margin-bottom: 10px;
 }
 
+#form-comment {
+    /* background: red; */
+    width: 90%;
+}
+
+#form-comment textarea {
+    height: 50px;
+    width: 100%;
+}
+
 form {
     display: flex;
     flex-direction: column;
