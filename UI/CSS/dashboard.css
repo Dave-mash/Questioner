@@ -7,6 +7,11 @@ p, h5 {
     margin: 0;
 }
 
+#meetup-info-text a {
+    text-decoration: none;
+    color: #000;
+}
+
 .main_title {
     height: 150px;
     background: #19B2FE;
@@ -173,7 +178,7 @@ header input {
     opacity: .9;
 }
 
-#meetup-info-text:hover {
+#meetup-info-text a:hover {
     color: #19B2FE
 }
 
