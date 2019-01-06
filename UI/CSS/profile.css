@@ -90,7 +90,8 @@ p, a {
 }
 
 .row-sec p, .row-sec h4 {
-    font-size: 14px;
+    font-size: 18px;
+    opacity: .9;
 }
 
 h2 {
