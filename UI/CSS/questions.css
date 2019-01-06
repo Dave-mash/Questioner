@@ -185,6 +185,7 @@ button {
 
 #comments {
     font-size: 15px;
+    opacity: .6;
 }
 
 .border-line {
@@ -213,6 +214,24 @@ button {
     margin-right: 10px;
 }
 
+.votes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.vote p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.vote img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
 .question {
     display: flex;
     flex-direction: column;
@@ -232,7 +251,7 @@ button {
 
 .comment {
     padding: 5px 5px;
-    margin: 10px 0;
+    margin: 20px 20px;
     background: rgb(245, 245, 245);
 }
 
@@ -296,10 +315,6 @@ button:hover {
 
     .hosts-info p {
         font-size: 10px;
-    }
-
-    .going {
-        /* background: red; */
     }
 
     .share h5 {
@@ -378,8 +393,22 @@ button:hover {
 
     .vote {
         margin-right: 10px;
+        height: 10%;
     }
 
+    .votes {
+        height: 10%;
+    }
+
+    .vote p {
+        font-size: 8px;
+    }
+
+    .vote img {
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+    }
     .que-1, .que-2 {
         margin-bottom: 20px;
     }
