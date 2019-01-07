@@ -39,7 +39,7 @@
             <a href="#">Admin</a>
         </div>
         <div class="admin-info">
-            <strong>WELCOME! to your admin page. You can view all your activities here. Please note, anything on this page should be confidential. click here to hide this</strong>
+            <strong id="strong">WELCOME! to your admin page. You can view all your activities here. Please note, anything on this page should be confidential. click here to hide this</strong>
         </div>
         <div class="admin-panel">
             <div class="space">
@@ -81,5 +81,12 @@
         <b>&copy; Questioner 2019</b>
     </footer>
 </body>
-<script src="../scripts/styles.js"></script>
+<script>
+    // hide text
+    strong = document.getElementById('strong');
+    console.log(strong)
+    strong.addEventListener("click", () => {
+        strong.style.display = 'none';
+    })
+</script>
 </html>
