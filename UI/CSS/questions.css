@@ -69,6 +69,16 @@ button {
 
 .share {
     flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
 }
 
 .share h5 {
@@ -172,9 +182,10 @@ button {
 }
 
 .que-h3 {
-    /* background: red; */
+    margin-top: 10px;
+    margin-right: 3%;
     height: 70px;
-    width: 15%;
+    width: 13%;
     display: flex;
     justify-content: space-between
 }
@@ -211,7 +222,7 @@ button {
 }
 
 .vote {
-    margin-right: 10px;
+    margin-right: 3%;
 }
 
 .votes {
@@ -398,17 +409,9 @@ button:hover {
     .meetup-questions {
         margin: 10px 10px;
     }
-
-    .question-comments {
-        background: blue;
-    }
-
-    .question-item-wrapper {
-        /* background: red; */
-    }
-
+    
     .profile {
-        background: green;
+        /* background: green; */
         width: 65%;
     }
 
@@ -473,6 +476,11 @@ button:hover {
         font-size: 11px;
         opacity: .8;
         margin-bottom: 5px;
+    }
+
+    #form-comment {
+        /* background: red; */
+        margin-left: 50px;
     }
 
     textarea {

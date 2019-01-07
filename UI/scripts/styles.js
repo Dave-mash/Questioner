@@ -1,15 +1,8 @@
-// hide text
-// strong = document.querySelector('strong');
-
-// strong.addEventListener("click", () => {
-//     strong.style.display = 'none';
-// })
-
 // Accordion for smaller screens
 var bar = document.querySelector(".bars");
 var cord = document.querySelector(".accordion")
 var mini = document.querySelector(".mini")
-var list = document.getElementById("menu")
+var list = document.getElementById("delete")
 
 function toggle(menu, accord) {
     menu.addEventListener("click", () => {
@@ -25,3 +18,4 @@ function toggle(menu, accord) {
 
 toggle(bar, cord)
 toggle(list, mini)
+
