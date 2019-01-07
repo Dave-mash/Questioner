@@ -300,6 +300,11 @@ form button {
     border-radius: 2px;
 }
 
+.profile {
+    /* background: green; */
+    width: 30%;
+}
+
 button:hover {
     background: rgba(1, 170, 255, 0.842);
 }
@@ -308,6 +313,19 @@ button:hover {
     .meetup-info-wrap {
         /* background: red; */
         height: 100px;
+    }
+
+    .votes {
+        display: none;
+    }
+
+    .profile {
+        /* background: blue; */
+        width: 100%;
+    }
+
+    .profile p {
+        font-size: 8px;
     }
 
     .meetup-info h4, p {
@@ -381,12 +399,31 @@ button:hover {
         margin: 10px 10px;
     }
 
+    .question-comments {
+        background: blue;
+    }
+
+    .question-item-wrapper {
+        /* background: red; */
+    }
+
+    .profile {
+        background: green;
+        width: 65%;
+    }
+
+    .profile p {
+        /* background: maroon; */
+        width: 100%;
+        justify-content: left
+    }
+
     .meetup-questions h3, .vote, i {
         font-size: 10px;
     }
 
     .que-h3 {
-        flex: 40%;
+        flex: 25%;
         height: 25px;
     }
 
